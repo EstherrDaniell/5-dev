@@ -3,14 +3,14 @@ agent any
 
 environment {  
     IMAGE_NAME = "myapp"  
-    DOCKER_HUB_USER = "<your-dockerhub-username>"  
+    DOCKER_HUB_USER = "estherdaniel"  
 }  
 
 stages {  
     stage('Clone') {  
         steps {  
             git branch: 'main',  
-            url: 'https://github.com/<username>/jenkins-docker-app.git'  
+            url: 'https://github.com/EstherrDaniell/5-dev.git'  
         }  
     }  
 
